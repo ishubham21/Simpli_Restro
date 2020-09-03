@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <!--Local StyleSheet-->
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -15,7 +18,8 @@
   </head>
   <body>
 
-    <!--Navbar-->
+    <section class="content">
+      <!--Navbar-->
     <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top border-bottom px-4 py-3">
        <a class="navbar-brand px-3 font-weight-bold" href="#">FOODIES</a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,17 +56,29 @@
        <div class="row justify-content-around">
          
          <!--Columns-->
-         <div class="col-10 col-md-3">
+         <div class="col-10 col-sm-4 col-lg-3">
             <!--Card-->
             <div class="card mx-2 mb-3">
-              <img class="card-img-top" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=902&q=80" alt="Food Image">
-              <div class="card-body">
-                <h5 class="card-title text-center">Burger</h5>
+
+              <!--Card image-->
+              <img class="card-img-top p-2" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=902&q=80" alt="Food Image">
+              <div class="card-body pb-1">
+                <h5 class="card-title">Burger</h5>
                 <p class="card-text text-justified">Sliced with extra cheese and a combination of veggies.</p>
+                <!--Horizontal Row-->
+                <hr>
+                <!--Offers' Section-->
+                <p class="offers" onclick="myFunction()">
+                  <i class="fa fa-gift" aria-hidden="true"></i> Offers
+                  <span class="px-2" id="offer-elem">   <!--Hidden elements under offer-->
+                    | <i class="fas fa-percentage"></i> 50% OFF
+                  </span>
+                </p>
               </div>
             </div>
          </div>
        </div>
+    </section>
     </section>
     
 
@@ -71,5 +87,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--jQuery-->
+    <script src="jquery.min.js"></script>
+
+    <!--Local Js-->
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

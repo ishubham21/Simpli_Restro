@@ -5,6 +5,12 @@ body{
 	background: #fff;
 	overflow-x: hidden;
 }
+
+/*Adding this cause overflow-x doesn't work while in body,html for mobile screens*/
+.content{
+	overflow-x: hidden;
+}
+
 /*---------------
 Navbar
 ----------------*/
@@ -16,6 +22,19 @@ Navbar
 }
 .navbar .navbar-collapse .btn{
 	background: #c8a97e;
+}
+
+/*----------------
+Cards
+------------------*/
+.card .card-text{
+	color: #666666
+}
+.card .offers{
+	color: #c8a97e;
+}
+.card .offers #offer-elem{
+	display: none;
 }
 
 /*-----------------
