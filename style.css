@@ -1,6 +1,6 @@
 /*Importing 2 fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@500;700;800&display=swap');
 
 body{
 	background: #fff;
@@ -13,12 +13,6 @@ body{
 }
 .gray-bg{
 	background: #fafafa !important;
-}
-.categories{
-	font-family: 'Kufam', cursive;
-}
-.categories a:hover{
-	text-decoration: none;
 }
 
 /*---------------
@@ -45,6 +39,24 @@ Cards
 }
 .card .offers #offer-elem{
 	display: none;
+}
+
+/*------------------
+Categories Section
+-------------------*/
+.categories{
+	font-family: 'Kufam', cursive;
+}
+.categories a:hover{
+	text-decoration: none;
+}
+.categories .col-10{
+ 	color: white;
+ 	padding: 2.8em;
+ 	width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.8em;
 }
 
 /*-----------------
