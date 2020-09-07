@@ -3,6 +3,6 @@ function openOffers() {
   var x = document.getElementById("offer-elem");
   if (x.style.display = "none") {
     x.style.display = "inline-block";
-    /*Space to set animation on display*/
+    /**/
   } 
 }
