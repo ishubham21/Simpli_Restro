@@ -67,11 +67,35 @@
                 <!--Horizontal Row-->
                 <hr>
                 <!--Offers' Section-->
-                <p class="offers" onclick="openOffers()">
-                  <i class="fa fa-gift" aria-hidden="true"></i> Offers
-                  <span class="px-2" id="offer-elem">   <!--Hidden elements under offer-->
-                    | <i class="fas fa-percentage"></i> 50% OFF
-                  </span>
+                <button class="btn text-white mb-3" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                  <i class="fa fa-gift" aria-hidden="true"></i> 
+                  Offers
+                </button>
+                <p class="collapse hidden-elems" id="collapse1">
+                   <i class="fas fa-percentage"></i> 50% OFF
+                </p>
+              </div>
+            </div>
+         </div>
+
+         <div class="col-10 col-sm-4 col-lg-3">
+            <!--Card-->
+            <div class="card mx-2 mb-3">
+
+              <!--Card image-->
+              <img class="card-img-top p-2" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=902&q=80" alt="Food Image">
+              <div class="card-body pb-1">
+                <h5 class="card-title">Burger <span class="badge badge-danger">Trending</span></h5> 
+                <p class="card-text text-justified">Sliced with extra cheese and a combination of veggies.</p>
+                <!--Horizontal Row-->
+                <hr>
+                <!--Offers' Section-->
+                <button class="btn text-white mb-3" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                  <i class="fa fa-gift" aria-hidden="true"></i> 
+                  Offers
+                </button>
+                <p class="collapse hidden-elems" id="collapse2">
+                   <i class="fas fa-percentage"></i> 10% OFF
                 </p>
               </div>
             </div>
@@ -81,7 +105,7 @@
     </section>
 
     <!--Categories-->
-    <section class="categories gray-bg p-5 mt-4">
+    <section class="gray-bg p-5 mt-4" id="categories">
       <h2 class="cursive-txt text-center">Our Menu</h2>
       <!--Row-->
        <div class="row justify-content-around">

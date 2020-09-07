@@ -37,20 +37,25 @@ Cards
 .card .offers{
 	color: #c8a97e;
 }
-.card .offers #offer-elem{
-	display: none;
+
+#specialities .card button{
+	background: #c8a97e;
+	color: white !important;
 }
 
+.hidden-elems{
+	color: #c8a97e;
+}
 /*------------------
 Categories Section
 -------------------*/
-.categories{
+#categories{
 	font-family: 'Kufam', cursive;
 }
-.categories a:hover{
+#categories a:hover{
 	text-decoration: none;
 }
-.categories .col-10{
+#categories .col-10{
  	color: white;
  	padding: 2.8em;
  	width: 100%;
@@ -74,4 +79,5 @@ Typography
 	font-weight: 700;
 	font-size: 3.5em;	
 }
+
 
