@@ -37,6 +37,9 @@ Cards
 .card .offers{
 	color: #c8a97e;
 }
+.card-body{
+	line-height: 1.5em;
+}
 
 #specialities .card button{
 	background: #c8a97e;
