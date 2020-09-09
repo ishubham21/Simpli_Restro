@@ -11,6 +11,7 @@ body{
 .content{
 	overflow-x: hidden;
 }
+/*For gray bg*/
 .gray-bg{
 	background: #fafafa !important;
 }
@@ -29,25 +30,22 @@ Navbar
 }
 
 /*----------------
-Cards
+Cards (in specailities section)
 ------------------*/
-.card .card-text{
+#specialities .card .card-text{
 	color: #666666
 }
-.card .offers{
+#specialities .card .offers{
 	color: #c8a97e;
 }
-.card-body{
+#specialities .card-body{
 	line-height: 1.5em;
 }
-
-
 #specialities .card button{
 	background: #c8a97e;
 	color: white !important;
 }
-
-.hidden-elems{
+#specialities .hidden-elems{
 	color: #c8a97e;
 }
 
@@ -69,6 +67,9 @@ Categories Section
     border-radius: 0.8em;
 }
 
+/*--------------------------
+Header section
+---------------------------*/
 @media only screen and (min-device-width:350px) and (max-device-width:750px){
 	section#header:before{
 		padding: 10em;
@@ -76,18 +77,61 @@ Categories Section
 }
 #header:before{
     content: "";
-    position: fixed;
+    position: absolute;
     z-index: -1; 
     background: url(banner-bg.jpg);
+    background-position: center;
     padding: 6em;
     width: 100%;
   
-    -webkit-filter: blur(2.5px);
-    -moz-filter: blur(2.5px);
-    -o-filter: blur(2.5px);
-    -ms-filter: blur(2.5px);
-    filter: blur(2.5px);
+    -webkit-filter: blur(2.1px);
+    -moz-filter: blur(2.1px);
+    -o-filter: blur(2.1px);
+    -ms-filter: blur(2.1px);
+    filter: blur(2.1px);
 }
+
+/*---------------------
+Menu Section
+---------------------*/
+#menu{
+	font-family: 'Poppins';
+}
+/*
+#menu .menu-img{
+	background-image: url(https://images.unsplash.com/photo-1573821663912-6df460f9c684?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}*/
+#menu p{
+	font-size: 14px;
+}
+#menu .dish-title{
+	display: inline-block;
+}
+#menu .dish-marks{
+	float: right;
+}
+#menu .dish-price{
+	color: #ff7404!important; 
+	display: inline-block;
+}
+#menu .add-to-cart{
+	background: #c8a97e;
+	color: white !important;
+	float: right;
+	margin-top: -0.5em;
+}
+
+/*-------------------
+Owl Carousel
+---------------------*/
+div.owl-nav{
+	display: none;
+}
+
 /*-----------------
 Typography
 ------------------*/

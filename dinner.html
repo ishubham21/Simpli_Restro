@@ -11,6 +11,9 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
+    <link rel="stylesheet" href="owl.carousel.min.css"> 
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+
     <!--Local StyleSheet-->
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -47,10 +50,46 @@
     <!--Just so content starts below the navbar-->
     <div style="padding: 2.5em;"></div>
 
-    <!--Specialities Sect-->
+    <!--Header Section-->
     <section id="header" class="mb-2">
        <h2 class="cursive-txt text-center p-5 m-0">Our Menus</h2>
+    </section>
 
+    <!--MENU-->
+    <section id="menu">
+      <div class="container">
+
+        <div class="row justify-content-around align-items-center">
+          <div class="col-10 col-md-6 border mx-2">
+            
+            <div class="row align-items-center">
+              <div class="col-5 menu-img p-0">
+                <img src="pizza.jpg" class="img-fluid">
+              </div>
+              <div class="col-7 pl-4">
+
+                <!--Menu-Title-->
+                <h5 class="dish-title">Margherita pizza</h5>
+                <p class="badge badge-success dish-marks">VEG</p>
+
+                <hr class="mt-0">
+
+                <!--Item Description-->
+                <p class="text-secondary">Homemade pizza dough, tomato sauce, roasted garlic, mozzarella cheese, olive oil</p>
+                
+                <!--Pricing-->
+                <h5 class="text-center dish-price">500/-</h5>
+                <button class="btn text-white add-to-cart ml-4" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                  <i class="fas fa-cart-plus" aria-hidden="true"></i> 
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          
+          </div> <!--col-10-->
+        </div>
+      
+      </div>
     </section>
   </section>
     
@@ -63,6 +102,8 @@
 
     <!--jQuery-->
     <script src="jquery.min.js"></script>
+
+    <script src="owl.carousel.min.js"></script>
 
     <!--Local Js-->
     <script type="text/javascript" src="script.js"></script>
