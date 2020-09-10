@@ -1,5 +1,5 @@
 /*Importing 2 fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kufam:wght@500;700;800&display=swap');
 
 body{
@@ -14,6 +14,15 @@ body{
 /*For gray bg*/
 .gray-bg{
 	background: #fafafa !important;
+}
+
+/*-----------------
+Typography
+------------------*/
+.cursive-txt{
+	font-family: 'Great Vibes';
+	color: #c8a97e;
+	font-size: 6em;
 }
 
 /*---------------
@@ -67,14 +76,53 @@ Categories Section
     border-radius: 0.8em;
 }
 
+/*-----------------
+Owl Carosuel
+------------------*/
+.owl-carousel .owl-nav{
+	display: none;
+}
+.owl-carousel .owl-dots{
+	padding-top: 1em;
+}
+
+/*-----------------
+Carousel with categorized specialities
+-------------------*/
+#spl-carousel .cost-circle{
+	background: #ff7404;
+	color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+	font-family: 'Poppins';
+	font-weight: 500;
+	font-size: 3em;
+	padding: 0.8em 0.4em;
+}
+#spl-carousel .crl-area{
+	position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+#spl-carousel .crl-txt{
+	position: relative;
+	top: 45px;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0 1.6em;
+	background: rgba(0,0,0,0.7);
+	border-radius: 0.4em;
+}
+
 /*--------------------------
 Header section
 ---------------------------*/
-@media only screen and (min-device-width:350px) and (max-device-width:750px){
-	section#header:before{
-		padding: 10em;
-	}
-}
+/*
 #header:before{
     content: "";
     position: absolute;
@@ -89,71 +137,10 @@ Header section
     -o-filter: blur(2.1px);
     -ms-filter: blur(2.1px);
     filter: blur(2.1px);
-}
-#header h2{
-	font-family: 'Great Vibes';
-	color: #c8a97e;
-	font-size: 6em;
-}
+}*/
 
-/*---------------------
-Menu Section
----------------------*/
-#menu{
-	font-family: 'Poppins';
-}
-#menu p{
-	font-size: 14px;
-}
-#menu .name-style{
-	font-family: 'Great Vibes', cursive;
-	color: #c8a97e;
-}
-#menu .name-style h1{
-	font-size: 7em !important;
-}
-@media only screen and (min-device-width:600px) and (max-device-width:1000px){
-	section#menu .name-style h1{
-		font-size: 4.8em !important;
-	}
-}
 
-#menu .dish-title{
-	display: inline-block;
-}
-#menu .dish-marks{
-	float: right;
-}
-#menu .dish-price{
-	color: #ff7404!important; 
-	display: inline-block;
-}
-#menu .add-to-cart{
-	background: #c8a97e;
-	color: white !important;
-	float: right;
-	margin-top: 1em !important;
-}
 
-/*-------------------
-Owl Carousel
----------------------*/
-div.owl-nav{
-	display: none;
-}
-.owl-dots{
-	margin-top: 1em;
-}
-github
-
-/*-----------------
-Typography
-------------------*/
-.cursive-txt{
-	font-family: 'Great Vibes';
-	color: #c8a97e;
-	font-size: 6em;
-}
 
 
 

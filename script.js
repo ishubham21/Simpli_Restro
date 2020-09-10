@@ -1,5 +1,7 @@
-$('.owl-carousel').owlCarousel({
-    loop:true,
+/*Carousel for specialities in each section*/
+$('#top-carousel').owlCarousel({
+    center:true,
+    loop:false,
     margin:10,
     nav:true,
     responsive:{
@@ -7,13 +9,13 @@ $('.owl-carousel').owlCarousel({
             items:1
         },
         600:{
-            items:1
+            items:2
         },
-        1000:{
-            items:1
+        1300:{
+            items: 3
         }
     },
     autoplay:true,
-    autoplayTimeout:2000,
+    autoplayTimeout:3000,
     autoplayHoverPause:true
 })
