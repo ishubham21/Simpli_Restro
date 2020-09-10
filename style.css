@@ -108,6 +108,19 @@ Menu Section
 #menu p{
 	font-size: 14px;
 }
+#menu .name-style{
+	font-family: 'Great Vibes', cursive;
+	color: #c8a97e;
+}
+#menu .name-style h1{
+	font-size: 7em !important;
+}
+@media only screen and (min-device-width:600px) and (max-device-width:1000px){
+	section#menu .name-style h1{
+		font-size: 4.8em !important;
+	}
+}
+
 #menu .dish-title{
 	display: inline-block;
 }
@@ -122,7 +135,7 @@ Menu Section
 	background: #c8a97e;
 	color: white !important;
 	float: right;
-	margin-top: -0.5em;
+	margin-top: 1em !important;
 }
 
 /*-------------------
@@ -130,6 +143,9 @@ Owl Carousel
 ---------------------*/
 div.owl-nav{
 	display: none;
+}
+.owl-dots{
+	margin-top: 1em;
 }
 
 /*-----------------

@@ -10,10 +10,10 @@ $('.owl-carousel').owlCarousel({
             items:1
         },
         1000:{
-            items:2
+            items:1
         }
     },
-    autoplay:false,
-    autoplayTimeout:4000,
+    autoplay:true,
+    autoplayTimeout:2000,
     autoplayHoverPause:true
 })
