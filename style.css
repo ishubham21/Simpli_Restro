@@ -1,6 +1,6 @@
 /*Importing 2 fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@500;600;700;800&display=swap');
 
 body{
 	background: #fff;
@@ -127,6 +127,47 @@ Carousel with categorized specialities
 	border-radius: 0.4em;
 }
 
+/*-------------------------
+MENU
+-------------------------*/
+#menu .img-hgt{
+	height: 300px !important;
+}
+@media only screen and (min-width: 300px) and (max-width: 800px){
+	section#menu div.img-hgt{
+		height: 210px !important;
+	}
+}
+@media only screen and (min-width: 300px) and (max-width: 800px){
+	section#menu div.row-hgt{
+		height: 500px !important;
+	}
+}
+#menu .row .menu-img{
+	/*background: url(menu1.png);*/ /*This section is available in HTML file*/ 
+	background-size: cover !important;
+	background-position: center !important; 
+	width: 50%;
+}
+#menu .menu-dish-name{
+	font-weight: 600;
+	text-transform: uppercase;
+}
+#menu .menu-dish-price{
+	background: #ff7404;
+	color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+	font-family: 'Poppins';
+	font-weight: 500;
+	font-size: 1em;
+	padding: 0.7em 0.4em;
+}
+#menu .at-cart button{
+    background: #c8a97e;
+    color: #fff;
+}
 /*--------------------------
 Header section
 ---------------------------*/

@@ -89,35 +89,65 @@
         </div>
     </section>
     
-    <hr style="width: 80%;" class="mt-5">
+    <hr style="width: 80%;" class="mt-5 mb-0">
 
-    <section class="menu">
-        <div class="container">
+    <section class="gray-bg pb-5" id="menu">
+        <div class="mx-5">
           <h2 class="text-center p-4 m-0 cursive-txt">Menu</h2>
-           <div class="row justify-content-around">
-              <div class="col-6">
-                 <div class="row justify-content-center">
-                    <div class="col-6 p-0">
-                       <img src="menu1.png" class="img-fluid">
-                    </div>
-                    <div class="col-6 border">
-                       <div class="row align-items-center pr-3 pr-lg-0">
+
+           <div class="row justify-content-around align-items-center">
+              <div class="col-6 p-0">
+
+                 <div class="row justify-content-center align-items-lg-start align-items-md-center">
+                    
+                    <!--MENU-IMAGE-->
+                    <div class="col-10 col-lg-6 menu-img img-hgt" style="background:url(menu1.png);"></div>
+                    <div class="col-10 col-lg-6">
+                       <div class="row align-items-center pr-3 pr-lg-0 pt-3">
+
+                        <!--Dish Name-->
                           <div class="col-9">
-                             <h4>Dish name here</h4>
+                             <h4 class="menu-dish-name">Dish name here</h4>
                           </div>
-                          <div class="col-3">
+                        <!--VEG, NON-VEG-->
+                          <div class="col-3 ">
                             <h5 class="badge badge-success">Veg</h5>
                           </div>
                        </div>
+
+                       <hr>
+                       
+                       <!--Menu Description-->
+                       <div class="menu-desc pb-xl-4">
+                          <p class="text-secondary text-justify">This is Lorem ipsum dolor sit amet, consectetur Lorem and this thatt this this</p>
+                       </div>
+
+                       <!--Menu Price-->
+                       <div class="w-100 text-center mt-lg-3 mt-xl-0">
+                         <span class="menu-dish-price">500/-</span>
+                       </div>
+                      
+
+                       <!--Add to Cart Button-->
+                       <div class="at-cart text-center">
+                          <button class="btn btn-sm mt-4"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                       </div>
+
                     </div>
                  </div>
+              
               </div>
+
+
            </div>
+
+
+        
         </div>
     </section>
 
     
-  </section>
+  </section> <!--With overflow-x-->
     
 
     <!-- Optional JavaScript -->
