@@ -15,7 +15,7 @@ $('#top-carousel').owlCarousel({
             items: 3
         }
     },
-    autoplay:true,
+    autoplay:false,
     autoplayTimeout:3000,
     autoplayHoverPause:true
 })
