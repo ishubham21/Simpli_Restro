@@ -1,5 +1,5 @@
 /*Carousel for specialities in each section*/
-$('#top-carousel').owlCarousel({
+$('#top-carsl').owlCarousel({
     center:true,
     loop:false,
     margin:10,
@@ -11,11 +11,11 @@ $('#top-carousel').owlCarousel({
         600:{
             items:2
         },
-        1300:{
+        1000:{
             items: 3
         }
     },
-    autoplay:false,
+    autoplay:true,
     autoplayTimeout:3000,
     autoplayHoverPause:true
 })

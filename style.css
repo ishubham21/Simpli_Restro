@@ -15,6 +15,10 @@ body{
 .gray-bg{
 	background: #fafafa !important;
 }
+.btn-simpli{
+	background: #c8a97e;
+	color: #fff;
+}
 
 /*-----------------
 Typography
@@ -88,7 +92,7 @@ Owl Carosuel
 
 /*-----------------
 Carousel with categorized specialities
--------------------*/
+-------------------
 #spl-carousel .item{
 	display: flex;
 	justify-content: center;
@@ -125,49 +129,35 @@ Carousel with categorized specialities
 	margin: 0 1.6em;
 	background: rgba(0,0,0,0.7);
 	border-radius: 0.4em;
-}
+} */
 
-/*-------------------------
-MENU
--------------------------*/
-#menu .img-hgt{
-	height: 300px !important;
+#spl-carsl .owl-item{
+	width: 15.6rem!important;
 }
-@media only screen and (min-width: 300px) and (max-width: 800px){
-	section#menu div.img-hgt{
-		height: 210px !important;
-	}
+#spl-carsl .item{
+	width: 14rem !important;
 }
-@media only screen and (min-width: 300px) and (max-width: 800px){
-	section#menu div.row-hgt{
-		height: 500px !important;
-	}
+#spl-carsl .at-cart{
+	display: flex; 
+	justify-content: center;
 }
-#menu .row .menu-img{
-	/*background: url(menu1.png);*/ /*This section is available in HTML file*/ 
-	background-size: cover !important;
-	background-position: center !important; 
-	width: 50%;
-}
-#menu .menu-dish-name{
-	font-weight: 600;
-	text-transform: uppercase;
-}
-#menu .menu-dish-price{
+#spl-carsl .cost-circle{
 	background: #ff7404;
 	color: white;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
 	font-family: 'Poppins';
 	font-weight: 500;
 	font-size: 1em;
-	padding: 0.7em 0.4em;
+	padding: 0.6em 0.4em;
+	border-radius: 50%;
 }
-#menu .at-cart button{
-    background: #c8a97e;
-    color: #fff;
+#spl-carsl .crl-txt{
+	display: flex;
+	justify-content: center;
 }
+/*-------------------------
+MENU
+-------------------------*/
+
 /*--------------------------
 Header section
 ---------------------------*/
