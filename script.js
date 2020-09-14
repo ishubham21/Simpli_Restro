@@ -15,7 +15,7 @@ $('#top-carsl').owlCarousel({
             items: 3
         }
     },
-    autoplay:false,
+    autoplay:true,
     autoplayTimeout:3000,
     autoplayHoverPause:true
 })

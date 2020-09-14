@@ -149,7 +149,13 @@ Carousel with categorized specialities
 #spl-carsl .btn-simpli{
 	float: right;
 }
+#spl-carsl .card-text{
+	font-size: 95%;
+}
 
+/*------------------
+Menu Section
+--------------------*/
 #menu .cursive-txt{
 	font-size: 50px;
 	text-align: center;
@@ -171,7 +177,9 @@ Carousel with categorized specialities
 #menu .btn-simpli{
 	float: right;
 }
-
+#menu .card-body p{
+	font-size: 95%;
+}
 /*-------------------------
 MENU
 -------------------------*/
