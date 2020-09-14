@@ -137,10 +137,6 @@ Carousel with categorized specialities
 #spl-carsl .item{
 	width: 14rem !important;
 }
-#spl-carsl .at-cart{
-	display: flex; 
-	justify-content: center;
-}
 #spl-carsl .cost-circle{
 	background: #ff7404;
 	color: white;
@@ -150,10 +146,32 @@ Carousel with categorized specialities
 	padding: 0.6em 0.4em;
 	border-radius: 50%;
 }
-#spl-carsl .crl-txt{
-	display: flex;
-	justify-content: center;
+#spl-carsl .btn-simpli{
+	float: right;
 }
+
+#menu .cursive-txt{
+	font-size: 50px;
+	text-align: center;
+}
+#menu .menu-img{
+	background-position: center!important;
+	background-size: cover!important;
+	background-repeat: no-repeat!important;
+}
+#menu .cost-circle{
+	background: #ff7404;
+	color: white;
+	font-family: 'Poppins';
+	font-weight: 500;
+	font-size: 0.9em;
+	padding: 0.4em 0.2em;
+	border-radius: 50%;
+}
+#menu .btn-simpli{
+	float: right;
+}
+
 /*-------------------------
 MENU
 -------------------------*/
