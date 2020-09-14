@@ -1,7 +1,7 @@
 /*Carousel for specialities in each section*/
 $('#top-carsl').owlCarousel({
-    center:true,
-    loop:false,
+    center:false,
+    loop:true,
     margin:10,
     nav:true,
     responsive:{
