@@ -183,8 +183,23 @@ Menu Section
 /*-------------------------
 Cart
 -------------------------*/
-#cart .btn{
+#cart .item .add-sub .btn{
 	padding: 0;
+}
+#cart textarea{
+	text-align: center;
+}
+#cart ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  text-align: center;
+  opacity: 1; 
+}
+
+#cart:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  text-align: center;
+}
+
+#cart::-ms-input-placeholder { /* Microsoft Edge */
+  text-align: center;
 }
 /*--------------------------
 Header section
