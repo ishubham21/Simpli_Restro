@@ -1,1 +1,1 @@
-This website is a prototype (for front-end) devleoped for a django based script and is under-development.
+This website is a prototype (for front-end) devleoped for a Django based script and is under-development.
